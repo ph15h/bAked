@@ -77,21 +77,22 @@ h6 {
 
 .carousel-bakery {
     background: linear-gradient(to top, transparentize($dprimary, .05) 0, transparentize($dprimary, .15) 20%, transparentize($dprimary, .4) 60%, transparentize($primary, .4) 100%),
-        url(images/bakery-1.jpeg);
+        url("../images/bakery-1.jpeg");
     background-position: 0% 95%;
     background-size: cover;
 }
 
 .carousel-delivery {
     background: linear-gradient(to top, transparentize($primary, .45) 0, transparentize($primary, .5) 80%, transparentize($primary, .55) 100%),
-        url(images/delivery.jpg);
+        url("../images/delivery.jpg");
+    // background: url(/images/loaf.jpg);
     background-position: 0% 15%;
     background-size: cover;
 }
 
 .carousel-safety {
     background: linear-gradient(to top, transparentize($dprimary, .45) 0, transparentize($dprimary, .4) 80%, transparentize($primary, .55) 100%),
-        url(images/facemask.jpg);
+        url("../images/facemask.jpg");
     background-position: 0% 50%;
     background-size: cover;
 }
