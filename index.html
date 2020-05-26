@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Bakery</title>
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="css/styles.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a1ff25e191.js" crossorigin="anonymous"></script>
+
+    <!-- scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-scrump">
+            <a class="navbar-brand baked" href="#">b@ked</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#ourstory">Our Story<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#delivery">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#hours" tabindex="-1" aria-disabled="true">Hours</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="main">
+        <div class="container-fluid">
+
+            <div id="landingCarousel" class="carousel slide" data-ride="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#landingCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#landingCarousel" data-slide-to="1"></li>
+                    <li data-target="#landingCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-bakery active">
+                        <div class="container">
+                            <div class="carousel-caption text-left">
+                                <h1>Welcome to <span class="baked">b@ked</span></h1>
+                                <p>We're a small, family-owned bakery dedicated to bringing you the best baked goods we
+                                    can.
+                                </p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Find out more about us</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-delivery">
+                        <div class="container">
+                            <div class="carousel-caption text-left">
+                                <h1>Now offering delivery</h1>
+                                <p> We're now offering delivery through our delivery partners.
+                                </p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Get <span
+                                            class="baked">b@ked </span> at home</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-safety">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Our COVID-19 Response</h1>
+                                <p> We at <span class="baked">b@ked</span> wish to inform you that in the interests of
+                                    the health and safety of our
+                                    guests, employees and all of our friends and family, we have temporarily closed our
+                                    cafe
+                                    area.
+
+                                </p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Read more about our COVID-19
+                                        Response</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#landingCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#landingCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="light-section" id="ourstory">
+        <div class="container">
+            <h2 class="section-heading">Our Story</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="story-image" src="images/prepping dough.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <p class="story">I don't have a fake story to tell and nobody gave me copy so I'm just typing random
+                        stuff here
+                        until it looks like enough to fill out the origin stories of a bakery. I'm just typing a lot so
+                        don't judge me. If you're reading this you can give me random stuff to put in here too but
+                        instead I'm just typing until I feel liek there's enough stuff in here. Wow I'm so cool. My
+                        bakery is new but has so many classic techniques and I'm so trendy. Follow me on Instagram. Take
+                        pics of our stuff cuz you should do it for the gram. Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Ipsum, odio quos fuga consequuntur, tempore corporis non, fugiat nostrum
+                        cupiditate magnam eligendi ab nobis quod debitis? Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Ut, ab iure! Beatae nisi consequuntur nihil minima corporis voluptate. Dicta
+                        nesciunt vel velit culpa neque quos?</p>
+                    <p class="story">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, consequuntur
+                        molestiae vel possimus a nam molestias at rem dicta ab earum velit. Porro minus laudantium
+                        similique nobis quas minima consectetur deserunt. Quam, ipsum voluptate fuga modi autem enim,
+                        illum similique, rem assumenda neque earum? Unde veniam distinctio error hic provident!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="colored-section text-center menu" id="menu">
+        <div class="container">
+            <h2 class="section-heading">Menu</h2>
+            <h3 class="menu-type my-4">Breads</h3>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card baguette">
+                        <img src="images/baguette.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Baguette
+                            </h5>
+                            <p class="card-text">Our artisan baguettes available in normal wheat, whole wheat, rye and
+                                sourdough
+                                varieties.</p>
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-8">
+                                        <label for="baguettedough">Dough Type:</label>
+                                        <select class="custom-select ">
+                                            <option selected>Choose one . . . </option>
+                                            <option value="1">Wheat</option>
+                                            <option value="2">Whole Wheat</option>
+                                            <option value="3">Rye</option>
+                                            <option value="4">Sourdough</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="baguettedough">Quantity</label>
+                                        <select class="custom-select ">
+                                            <option selected>0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button class="btn btn-lg btn-block btn-primary mt-4">Add to Cart</button>
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="card-footer">
+                            <small class="card-text text-muted">Baked fresh from 5AM to 3PM daily</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card boule">
+                        <img src="images/boule.jpg" alt="" class="card-img-top boule-img">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Boule
+                            </h5>
+                            <p class="card-text">Our artisan boules available in normal wheat, whole wheat, rye and
+                                sourdough
+                                varieties.</p>
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-8">
+                                        <label for="baguettedough">Dough Type:</label>
+                                        <select class="custom-select ">
+                                            <option selected>Choose one . . . </option>
+                                            <option value="1">Wheat</option>
+                                            <option value="2">Whole Wheat</option>
+                                            <option value="3">Rye</option>
+                                            <option value="4">Sourdough</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="baguettedough">Quantity</label>
+                                        <select class="custom-select ">
+                                            <option selected>0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button class="btn btn-lg btn-block btn-primary mt-4">Add to Cart</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card-footer">
+                            <small class="card-text text-muted">Baked fresh from 5AM to 3PM daily</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card loaf">
+                        <img src="images/loaf.jpg" alt="" class="card-img-top loaf-img">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Loafs
+                            </h5>
+                            <p class="card-text">Our loafs are available as white bread, whole wheat bread, Japanese
+                                Milk Bread, Brioche and many other varieties</p>
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-8">
+                                        <label for="baguettedough">Dough Type:</label>
+                                        <select class="custom-select ">
+                                            <option selected>Choose one . . . </option>
+                                            <option value="1">White</option>
+                                            <option value="2">Whole Wheat</option>
+                                            <option value="3">Japanese Milk Bread</option>
+                                            <option value="4">Brioche</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="baguettedough">Quantity</label>
+                                        <select class="custom-select ">
+                                            <option selected>0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button class="btn btn-lg btn-block btn-primary mt-4">Add to Cart</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card-footer">
+                            <small class="card-text text-muted">Baked fresh from 5AM to 12PM daily</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card rolls">
+                        <img src="images/rolls.jpg" alt="" class="card-img-top rolls-img">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Rolls and More
+                            </h5>
+                            <p class="card-text">We have dozens of different types of rolls and buns available.
+                                Unfortunately, stock for this varies by the minute so you'll have to call in to the
+                                bakery to see what's in hand if you decide to do a pick-up order. </p>
+                            <button class="btn btn-lg btn-block btn-outline-dark mt-4">View rolls...</button>
+
+                            </form>
+                        </div>
+                        <div class="card-footer">
+                            <small class="card-text text-muted">Baked fresh from 5AM to 5PM daily</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="menu-type my-2">Pastries</h3>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card pastries">
+                        <img src="images/pastries.jpg" alt="" class="card-img-top pastries-img">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Pastries
+                            </h5>
+                            <p class="card-text">We have dozens of different types of pastries for you to choose from.
+                                Unfortunately, due to COVID-19 we've had to temporarily shut down our pastry operation
+                                for the safety of our employees and our customers.</p>
+                            <p class="card-text">But that doesn't stop you from looking at our wonderful line of
+                                pastries that will be there waiting for you when we fully reopen.</p>
+                            <button class="btn btn-lg btn-block btn-outline-dark mt-4">View pastries</button>
+
+                            </form>
+                        </div>
+                        <div class="card-footer">
+                            <small class="card-text text-muted">Currently not available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="menu-type my-2">Cakes</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="card cakes">
+                        <img src="images/cake.jpg" alt="" class="card-img-top cakes-img">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Cakes
+                            </h5>
+                            <p class="card-text">We have many cakes for you to choose from.
+                                Unfortunately, due to COVID-19 we've had to temporarily shut down our cake baking
+                                operation for the safety of our employees and our customers.</p>
+                            <p class="card-text">If you're interested in our previous cakes, please check out our
+                                Instagram linked below</p>
+                            <button class="btn btn-lg btn-block btn-outline-dark mt-4" disabled>View cakes</button>
+
+                            </form>
+                        </div>
+                        <div class="card-footer">
+                            <small class="card-text text-muted">Currently not available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="menu-type my-2">Cafe</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="card cafe">
+                        <img src="images/cafe.jpg" alt="" class="card-img-top cafe-img">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Cafe
+                            </h5>
+                            <p class="card-text">The cafe portion of our bakery is closed until further notice. We hope
+                                to be able to serve you the best coffee, tea, boba, mixed drinks and sandwiches as soon
+                                as we can.</p>
+                            </form>
+                        </div>
+                        <div class="card-footer">
+                            <small class="card-text text-muted">Currently not available</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="light-section" id="delivery">
+        <div class="container">
+            <h2 class="section-heading">Get bread delivered to your door</h2>
+            <p>We've partnered with your favorite food delivery services to deliver fresh bread to your doorstep. Please
+                remember to choose delivery and your deliverer of choice at checkout</p>
+        </div>
+
+    </section>
+
+    <footer id="footer" class="container-fluid colored-section text-center">
+        <a href="#" class="social"><i class="soc-icon fab fa-twitter"></i></a>
+        <a href="#" class="social"><i class="soc-icon fab fa-facebook-f"></i></a>
+        <a href="#" class="social"><i class="soc-icon fab fa-instagram"></i></a>
+        <a href="#" class="social"><i class="soc-icon fas fa-envelope"></i></a>
+        <p>© Copyright 2020 <span class="baked">b@ked</span></p>
+    </footer>
+
+</body>
+
+</html>
